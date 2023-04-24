@@ -96,7 +96,15 @@ section {}
   | Header styles
   |============================
 */
+
 .header-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+
+.header-nav {
     display: flex;
     align-items: center;
 
@@ -372,7 +380,8 @@ section {}
     align-items: center;
     width: 586px;
     margin: auto;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+    justify-content: center;
 }
 
 .filter-item:not(:last-child) {
@@ -394,13 +403,14 @@ section {}
     border-radius: 4px;
     display: block;
     margin: auto;
-    padding: 10px 22px;
+    padding: 12px 24px;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--color-ocean);
     color: var(--color-white);
+    border: 1px solid transparent;
 }
 
 
@@ -408,11 +418,13 @@ section {}
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 22px;
+    column-gap: 24px;
+    row-gap: 48px;
+
 }
 
 .portfolio-project {
-    padding: 32px 0;
+    padding: 32px 16px;
     border-top: none;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
@@ -421,6 +433,7 @@ section {}
 
 .portfolio-subtitle {
     margin-left: 16px;
+    margin-bottom: 8px;
 }
 
 .portfollio-item {}
