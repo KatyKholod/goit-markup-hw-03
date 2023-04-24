@@ -96,11 +96,13 @@ section {}
   | Header styles
   |============================
 */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -251,7 +253,7 @@ section {}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .desc {
@@ -272,14 +274,13 @@ section {}
     text-transform: capitalize;
     letter-spacing: 0.02em;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 
 }
 
 .works-list {
     display: flex;
     align-items: center;
-    margin-top: 72px;
 
 }
 
