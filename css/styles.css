@@ -201,7 +201,7 @@ section {}
 
 .btn {
     min-width: 169px;
-    min-height: 56px;
+    height: 56px;
     padding: 16px 32px;
     border-radius: 4px;
     font-weight: 500;
@@ -213,6 +213,8 @@ section {}
     background-color: var(--color-iris);
     display: block;
     margin: auto;
+    border: none;
+
 }
 
 .btn:hover,
@@ -270,12 +272,14 @@ section {}
     text-transform: capitalize;
     letter-spacing: 0.02em;
     margin-top: 0;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
+
 }
 
 .works-list {
     display: flex;
     align-items: center;
+    margin-top: 72px;
 
 }
 
@@ -302,6 +306,7 @@ section {}
 .team-list {
     display: flex;
     align-items: center;
+    margin-top: 72px;
 }
 
 .team-item {
@@ -329,13 +334,12 @@ section {}
   | Footer styles
   |============================
 */
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+.footer-container {}
 
 .footer {
     background-color: var(--color-bgd);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -350,7 +354,7 @@ section {}
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 
 }
 
