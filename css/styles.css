@@ -423,11 +423,10 @@ section {}
 }
 
 .portfolio-project {
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 .portfolio-subtitle {
-    margin-left: 16px;
     margin-bottom: 8px;
 }
 
@@ -437,7 +436,6 @@ section {}
 
 .portfolio-desc {
     color: var(--color-slate);
-    margin-left: 16px;
 }
 
 .portfolio-view {}
