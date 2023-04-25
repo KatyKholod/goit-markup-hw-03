@@ -109,7 +109,6 @@ section {}
 .header-nav {
     display: flex;
     align-items: center;
-
 }
 
 .header-nav-logo {
@@ -216,7 +215,6 @@ section {}
     display: block;
     margin: auto;
     border: none;
-
 }
 
 .btn:hover,
@@ -236,7 +234,6 @@ section {}
 .advantages-list {
     display: flex;
     align-items: baseline;
-
 }
 
 .advantage-item {
@@ -275,13 +272,11 @@ section {}
     letter-spacing: 0.02em;
     margin-top: 0;
     margin-bottom: 72px;
-
 }
 
 .works-list {
     display: flex;
     align-items: center;
-
 }
 
 .works-section {
@@ -298,11 +293,9 @@ section {}
   |============================
 */
 .team {
-
     background-color: var(--color-cloud);
     padding: 120px 0;
 }
-
 
 .team-list {
     display: flex;
@@ -343,8 +336,6 @@ section {}
     padding-bottom: 100px;
 }
 
-
-
 .footer-logo {
     color: var(--color-iris);
     font-family: var(--secondary-font);
@@ -356,7 +347,6 @@ section {}
     text-decoration: none;
     display: inline-block;
     margin-bottom: 16px;
-
 }
 
 .light-logo {
@@ -365,6 +355,7 @@ section {}
 
 .footer-desc {
     color: var(--color-cloud);
+    max-width: 264px;
 }
 
 
@@ -383,7 +374,6 @@ section {}
 .filters-list {
     display: flex;
     align-items: center;
-    width: 586px;
     margin: auto;
     margin-bottom: 72px;
     justify-content: center;
@@ -418,22 +408,22 @@ section {}
     border: 1px solid transparent;
 }
 
-
-
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
 }
 
 .portfolio-project {
-    padding: 32px 16px;
     border-top: none;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
+}
+
+.portfolio-project {
+    padding: 32px 0;
 }
 
 .portfolio-subtitle {
