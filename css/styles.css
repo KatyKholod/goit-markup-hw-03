@@ -300,7 +300,6 @@ section {}
 .team-list {
     display: flex;
     align-items: center;
-    margin-top: 72px;
 }
 
 .team-item {
